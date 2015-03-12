@@ -1,0 +1,201 @@
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+/****** MY CSS ******/
+html, body {
+	height: 100%;	 
+}
+
+body {
+	background-color: #2E292A;
+	font-family: Gentium Book Basic;
+}
+
+.wrapper {	
+	min-height: 100%;
+	margin-bottom: 180px;	
+}
+
+footer {
+	background-color: #F71B39;
+	height: 100px;	
+	margin-top: -100px;
+	font-size: 30px;
+	color: #FAF0F1;
+	padding: 20px 0 0 20px;
+}
+
+header {
+	background-color: #F71B39;
+	padding: 20px 0;
+	margin: 0 0 40px 0;
+}
+
+header h1 {
+	text-align: center;
+	color: #FAF0F1;
+	font-size: 2.8em;
+	margin: 0;
+}
+
+header h1 a:link, header h1 a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+/* navigation menu at top */
+nav .menu {
+	width: 920px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	padding: 0;
+}
+
+nav .menu li {
+	list-style: none;
+	float: left;	
+}
+
+nav .menu li a {
+	display: inline-block;
+	width: 160px;
+	height: 80px;
+	padding: 20px 10px 0;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	font-size: 1.6em;
+	font-weight: bold;
+	background-color: #F71B39;
+	border: 1px solid white;
+	border-radius: 20px;
+}
+
+/* big red middle container */
+.food-menu {
+	width: 960px;
+	margin: 0 auto;
+	border: 1px solid white;
+	background-color: #F71B39;
+}
+
+/* the pizza picture */ 
+.food-menu #home-pic {
+	width: 642px;
+	margin: 20px auto;
+}
+
+/* food menus in english */
+.food-menu form h1 {
+	color: white;
+	text-align: center;
+	font-size: 2.6em;
+}
+
+.food-menu h1, .food-menu h2 {
+	color: white;
+	text-align: center;
+	font-size: 2.6em;
+	padding: 10px 0;
+}
+
+.food-menu form table {
+	margin: 0 auto;
+	color: black;
+	border: white;
+}
+
+.food-menu form table th, .food-menu form table td { 
+	width: 240px;
+	text-align: center;
+	padding: 10px;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.food-menu form table th {
+	background-color: #BAA97B;
+}
+
+.food-menu form table td {
+	background-color: #D1CB99;
+}
+
+.food-menu form input[type="submit"] {
+	display: block;
+	margin: 12px auto;
+	background-color: black;
+	color: white;
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 10px;	
+	font-size: 1.4em;
+}
+
+/* add to cart confirmation menu */
+
+#food-block .food-name p {
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+	height: 120px;
+	color: black;
+	text-align: center;
+	padding: 12px;
+	font-size: 1.2em;
+	margin: 20px 0 20px 20px;
+	background-color: #F2EAD3;
+	font-weight: bold;
+}
+
+#food-block .food-name label p {
+	width: 80px;
+}
+
+#food-block .food-name .input-food-price {
+	display: inline-block;
+	vertical-align: top;
+	height: 120px;
+	width: 240px;
+	color: black;
+	text-align: center;
+	padding: 12px;
+	font-size: 1.2em;
+	margin: 20px 0 20px 20px;
+	background-color: #F2EAD3;
+	font-weight: bold;
+}
+
+#food-block .food-name .input-food-price select {
+	width: 220px;
+}
+
+/* table on the cart page needs to have thinner columns */
+#cart-table th, #cart-table td { 
+	width: 180px;
+}
+

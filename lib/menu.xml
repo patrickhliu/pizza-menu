@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu>
+	<pizzas>
+			<pizza name="Tomatoes &amp; Cheese">		
+				<type>regular</type>
+				<price>
+					<small>5.50 (small)</small>
+					<small-extra-cheese>6.75 (small-extra-cheese)</small-extra-cheese>
+					<large>9.75 (large)</large>
+					<large-extra-cheese>11.60 (large-extra-cheese)</large-extra-cheese>
+				</price>
+			</pizza>		
+			<pizza name="Onions">
+				<type>regular</type>
+				<price>
+					<small>6.85 (small)</small>
+					<small-extra-cheese>8.10 (small-extra-cheese)</small-extra-cheese>
+					<large>10.85 (large)</large>
+					<large-extra-cheese>12.70 (large-extra-cheese)</large-extra-cheese>
+				</price>
+			</pizza>		
+			<pizza name="Peppers">
+				<type>regular</type>
+				<price>
+					<small>6.85 (small)</small>
+					<small-extra-cheese>8.10 (small-extra-cheese)</small-extra-cheese>
+					<large>10.85 (large)</large>
+					<large-extra-cheese>12.70 (large-extra-cheese)</large-extra-cheese>
+				</price>
+			</pizza>		
+			<pizza name="Broccoli">
+				<type>regular</type>
+				<price>
+					<small>6.85 (small)</small>
+					<small-extra-cheese>8.10 (small-extra-cheese)</small-extra-cheese>
+					<large>10.85 (large)</large>
+					<large-extra-cheese>12.70 (large-extra-cheese)</large-extra-cheese>
+				</price>
+			</pizza>		
+			<pizza name="Fresh-garlic">
+				<type>regular</type>
+				<price>
+					<small>6.85 (small)</small>
+					<small-extra-cheese>8.10 (small-extra-cheese)</small-extra-cheese>
+					<large>10.85 (large)</large>
+					<large-extra-cheese>12.70 (large-extra-cheese)</large-extra-cheese>
+				</price>
+			</pizza>	 		
+			<pizza name="Mushrooms">
+				<type>regular</type>
+				<price>
+					<small>6.85 (small)</small>
+					<small-extra-cheese>8.10 (small-extra-cheese)</small-extra-cheese>
+					<large>10.85 (large)</large>
+					<large-extra-cheese>12.70 (large-extra-cheese)</large-extra-cheese>
+				</price>
+			</pizza>
+			
+	
+			<pizza name="3 Aces Special">
+				<type>specialty</type>
+				<price>
+					<small>9.80 (small)</small>
+					<large>15.80 (large)</large>
+				</price>
+			</pizza>
+			<pizza name="Mediterranean &#10; (Sliced tomatoes, Olives, Spinach, Fresh Garlic, Mozzarella &amp; Feta Cheese)">
+				<type>specialty</type>
+				<price>
+					<small>9.80 (small)</small>
+					<large>15.80 (large)</large>
+				</price>
+			</pizza>
+			<pizza name="Vegetarian (Sliced Tomatoes, Onion, Peppers, Mushrooms, Broccoli, Mozzarella)">
+				<type>specialty</type>
+				<price>
+					<small>9.80 (small)</small>
+					<large>15.80 (large)</large>
+				</price>
+			</pizza>
+			<pizza name="Meat Lovers (Pepperoni, Hamburg, Sausage &amp; Bacon)">
+				<type>specialty</type>
+				<price>
+					<small>9.80 (small)</small>
+					<large>15.80 (large)</large>
+				</price>
+			</pizza>
+			<pizza name="BBQ Grilled Chicken (Chicken and choice of vegetables)">
+				<type>specialty</type>
+				<price>
+					<small>9.80 (small)</small>
+					<large>15.80 (large)</large>
+				</price>
+			</pizza>
+			
+			<pizza name="Big Bertha">
+				<type>gargantuan</type>
+				<price>24.99</price>
+			</pizza>
+			<pizza name="Godzilla">
+				<type>gargantuan</type>
+				<price>24.99</price>
+			</pizza>
+			
+			<pizza name="Vegetarian">
+				<type>calzone</type>
+				<price>7.35</price>
+			</pizza>
+			<pizza name="Sausage">
+				<type>calzone</type>
+				<price>7.35</price>
+			</pizza>	
+			<pizza name="Ham &amp; Cheese">
+				<type>calzone</type>
+				<price>7.35</price>
+			</pizza>	
+			<pizza name="Chicken Cutlet">
+				<type>calzone</type>
+				<price>7.35</price>
+			</pizza>	
+			<pizza name="Grilled Chicken">
+				<type>calzone</type>
+				<price>7.35</price>
+			</pizza>	
+			<pizza name="Meatball">
+				<type>calzone</type>
+				<price>7.35</price>
+			</pizza>	
+			<pizza name="Grecian">
+				<type>calzone</type>
+				<price>7.35</price>
+			</pizza>	
+			<pizza name="Veal">
+				<type>calzone</type>
+				<price>7.35</price>
+			</pizza>												
+	</pizzas>		
+	
+	<dinners>
+		<dinner name="Chicken Wing Dinner">
+			<type>special</type>
+			<price>7.25</price>			
+		</dinner>
+		<dinner name="Gyro Plate">
+			<type>special</type>
+			<price>7.25</price>			
+		</dinner>
+		<dinner name="Chicken Finger Plate">
+			<type>special</type>
+			<price>7.25</price>			
+		</dinner>
+		<dinner name="3 Piece Chicken Dinner">
+			<type>special</type>
+			<price>7.25</price>			
+		</dinner>
+		<dinner name="Double-Cheeseburger Plate">
+			<type>special</type>
+			<price>5.75</price>			
+		</dinner>
+	
+	
+		<dinner name="Onion Rings">
+			<type>side</type>
+			<price>
+				<small>2.60 (small)</small>
+				<large>2.95 (large)</large>
+			</price>
+		</dinner>
+		<dinner name="French Fries">
+			<type>side</type>
+			<price>
+				<small>2.25 (small)</small>
+				<large>2.65 (large)</large>
+			</price>
+		</dinner>
+		<dinner name="Spicy Fries">
+			<type>side</type>
+			<price>
+				<small>2.60 (small)</small>
+				<large>2.95 (large)</large>
+			</price>
+		</dinner>
+		<dinner name="Chicken Wings">
+			<type>side</type>
+			<price>5.75</price>
+		</dinner>
+		<dinner name="Buffalo Wings">
+			<type>side</type>
+			<price>5.75</price>
+		</dinner>
+	
+		<dinner name="Garden">
+			<type>salad</type>
+			<price>
+				<small>3.50 (small)</small>
+				<large>4.50 (large)</large>
+			</price>
+		</dinner>
+		<dinner name="Greek">
+			<type>salad</type>
+			<price>
+				<small>4.50 (small)</small>
+				<large>5.50 (large)</large>
+			</price>
+		</dinner>
+		<dinner name="Antipasto">
+			<type>salad</type>
+			<price>
+				<small>4.50 (small)</small>
+				<large>5.50 (large)</large>
+			</price>
+		</dinner>
+		<dinner name="Chef">
+			<type>salad</type>
+			<price>	
+				<small>4.50 (small)</small>
+				<large>5.50 (large)</large>
+			</price>
+		</dinner>
+		<dinner name="Tuna">
+			<type>salad</type>
+			<price>
+				<small>4.50 (small)</small>
+				<medium>4.99 (medium)</medium>
+				<large>5.50 (large)</large>
+			</price>
+		</dinner>
+	</dinners>
+	
+	<pastas>
+		<pasta name="With Sauce">
+			<type>spaghetti or ziti</type>
+			<price>5.40</price>
+		</pasta>
+		<pasta name="With Sausage">
+			<type>spaghetti or ziti</type>
+			<price>6.45</price>
+		</pasta>	
+		<pasta name="With Meat Ball">
+			<type>spaghetti or ziti</type>
+			<price>6.45</price>
+		</pasta>	
+		<pasta name="With Veal">
+			<type>spaghetti or ziti</type>
+			<price>6.45</price>
+		</pasta>	
+		<pasta name="Chicken Cutlet">
+			<type>spaghetti or ziti</type>
+			<price>6.45</price>
+		</pasta>
+		<pasta name="With Mushrooms">
+			<type>spaghetti or ziti</type>
+			<price>6.45</price>
+		</pasta>	
+		<pasta name="A La Three Aces (Sausage, Mushrooms, Bacon, Ham, topped with sauce and mozarella cheese)">
+			<type>spaghetti or ziti</type>
+			<price>7.25</price>
+		</pasta>	
+		<pasta name="Eggplant Spaghetti with mozarella cheese">
+			<type>spaghetti or ziti</type>
+			<price>7.25</price>
+		</pasta>
+		<pasta name="Ziti Dinner with mozarella cheese">
+			<type>spaghetti or ziti</type>
+			<price>7.25</price>
+		</pasta>
+		
+		<pasta name="With Sauce">
+			<type>lasagna, ravioli or manicotti</type>
+			<price>6.25</price>
+		</pasta>
+		<pasta name="With Sausage">
+			<type>lasagna, ravioli or manicotti</type>
+			<price>7.25</price>
+		</pasta>	
+		<pasta name="With Meat Ball">
+			<type>lasagna, ravioli or manicotti</type>
+			<price>7.25</price>
+		</pasta>	
+		<pasta name="With Veal">
+			<type>lasagna, ravioli or manicotti</type>
+			<price>7.25</price>
+		</pasta>	
+		<pasta name="Chicken Cutlet">
+			<type>lasagna, ravioli or manicotti</type>
+			<price>7.25</price>
+		</pasta>
+		<pasta name="With Mushrooms">
+			<type>lasagna, ravioli or manicotti</type>
+			<price>7.25</price>
+		</pasta>
+		<pasta name="Veggie Lasagna">
+			<type>lasagna, ravioli or manicotti</type>
+			<price>7.25</price>
+		</pasta>			
+	</pastas>	
+	
+	<sandwhiches>
+		<sandwhich name="Turkey Club (Turkey, Cheese, Lettuce, Tomato, Onion, Mayo)">
+			<type>wrap</type>
+			<price>4.95</price>			
+		</sandwhich>
+		<sandwhich name="Chicken Cobb (Grilled Chicken, Bacon, Cheese, Lettuce, Tomatop, Onion, Honey Mustard">
+			<type>wrap</type>
+			<price>4.95</price>			
+		</sandwhich>
+		<sandwhich name="Greek Supreme (Feta Cheese, Black Olives, Lettuce, Tomato, Onion, Greek Dressing">
+			<type>wrap</type>
+			<price>4.95</price>			
+		</sandwhich>
+		<sandwhich name="Crispy Chicken (Chicken Finger, Lettuce, Tomato, Onion, Honey Mustard">
+			<type>wrap</type>
+			<price>4.95</price>			
+		</sandwhich>
+		<sandwhich name="Steak Wrap">
+			<type>wrap</type>
+			<price>4.95</price>			
+		</sandwhich>
+		
+		<sandwhich name="Meatless">
+			<type>grinder</type>
+			<price>
+				<small>4.50</small>
+				<large>4.95</large>	
+			</price>		
+		</sandwhich>
+		<sandwhich name="Hamburger">
+			<type>grinder</type>
+			<price>
+				<small>4.50</small>
+				<large>4.95</large>
+			</price>			
+		</sandwhich>
+		<sandwhich name="Cheeseburger">
+			<type>grinder</type>
+			<price>
+				<small>4.75</small>
+				<large>5.75</large>
+			</price>			
+		</sandwhich>
+		<sandwhich name="Meatball">
+			<type>grinder</type>
+			<price>
+				<small>4.75</small>
+				<large>5.75</large>
+			</price>			
+		</sandwhich>
+		<sandwhich name="Sausage">
+			<type>grinder</type>
+			<price>
+				<small>4.75</small>
+				<large>5.75</large>
+			</price>			
+		</sandwhich>
+	</sandwhiches>
+</menu>
