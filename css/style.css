@@ -161,37 +161,37 @@ nav .menu li a {
 #food-block .food-name p {
 	display: inline-block;
 	vertical-align: top;
-	width: 50%;
-	height: 120px;
+	width: 335px;
+	min-height: 80px;
 	color: black;
 	text-align: center;
-	padding: 12px;
+	margin: 20px 0 0 15px;
 	font-size: 1.2em;
-	margin: 20px 0 20px 20px;
+	padding: 20px 10px 0 10px;
 	background-color: #F2EAD3;
 	font-weight: bold;
 }
 
 #food-block .food-name label p {
-	width: 80px;
+	width: 160px;
 }
 
 #food-block .food-name .input-food-price {
 	display: inline-block;
 	vertical-align: top;
-	height: 120px;
-	width: 240px;
+	min-height: 80px;
+	width: 335px;
 	color: black;
 	text-align: center;
-	padding: 12px;
+	margin: 20px 0 0 15px;
 	font-size: 1.2em;
-	margin: 20px 0 20px 20px;
+	padding: 20px 10px 0 10px;
 	background-color: #F2EAD3;
 	font-weight: bold;
 }
 
 #food-block .food-name .input-food-price select {
-	width: 220px;
+	width: 280px;
 }
 
 /* table on the cart page needs to have thinner columns */

@@ -321,36 +321,36 @@
 		<sandwhich name="Meatless">
 			<type>grinder</type>
 			<price>
-				<small>4.50</small>
-				<large>4.95</large>	
+				<small>4.50 (small)</small>
+				<large>4.95 (large)</large>	
 			</price>		
 		</sandwhich>
 		<sandwhich name="Hamburger">
 			<type>grinder</type>
 			<price>
-				<small>4.50</small>
-				<large>4.95</large>
+				<small>4.50 (small)</small>
+				<large>4.95 (large)</large>
 			</price>			
 		</sandwhich>
 		<sandwhich name="Cheeseburger">
 			<type>grinder</type>
 			<price>
-				<small>4.75</small>
-				<large>5.75</large>
+				<small>4.75 (small)</small>
+				<large>5.75 (large)</large>
 			</price>			
 		</sandwhich>
 		<sandwhich name="Meatball">
 			<type>grinder</type>
 			<price>
-				<small>4.75</small>
-				<large>5.75</large>
+				<small>4.75 (small)</small>
+				<large>5.75 (large)</large>
 			</price>			
 		</sandwhich>
 		<sandwhich name="Sausage">
 			<type>grinder</type>
 			<price>
-				<small>4.75</small>
-				<large>5.75</large>
+				<small>4.75 (small)</small>
+				<large>5.75 (large)</large>
 			</price>			
 		</sandwhich>
 	</sandwhiches>
