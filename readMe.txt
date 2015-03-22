@@ -10,7 +10,7 @@ Project Details:
 	and create a fictional online ordering system.
 
 Hosted Link:
-	None yet
+	http://176.32.230.8/pliupizza.com/
 
 Instructions:
 	You can navigate through the menu, select food items & add to your cart.
